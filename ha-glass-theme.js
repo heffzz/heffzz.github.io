@@ -152,6 +152,17 @@ home-assistant.glass-theme hui-heading-card .heading-content {
   font-weight: 800;
 }
 
+/* ============ BADGE ============ */
+home-assistant.glass-theme hui-view-badges {
+  gap: 8px;
+}
+home-assistant.glass-theme hui-badge {
+  --badge-background-color: rgba(10, 18, 36, 0.65);
+  border: 1px solid rgba(0, 217, 255, 0.18);
+  border-radius: 14px;
+  backdrop-filter: blur(10px);
+}
+
 /* ============ TABELLE/ENTITIES ============ */
 home-assistant.glass-theme hui-entities-card ha-icon {
   color: #93a7c4;
