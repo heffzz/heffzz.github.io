@@ -72,7 +72,7 @@ function(t,e){"object"==typeof exports&&"undefined"!=typeof module?e(exports):"f
     _initScene(three) {
       this.innerHTML = "";
       const wrap = document.createElement("div");
-      wrap.style.cssText = "position:relative;width:100%;height:620px;border-radius:16px;overflow:hidden;background:radial-gradient(ellipse at 50% 0%,#0d1b2e 0%,#0a0f1e 55%,#05070f 100%);";
+      wrap.style.cssText = "position:relative;width:100%;height:calc(100vh - 128px);min-height:480px;border-radius:16px;overflow:hidden;background:radial-gradient(ellipse at 50% 0%,#0d1b2e 0%,#0a0f1e 55%,#05070f 100%);";
       const canvas = document.createElement("div");
       canvas.style.cssText = "position:absolute;inset:0;";
       wrap.appendChild(canvas);
