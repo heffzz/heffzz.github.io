@@ -10,7 +10,7 @@ home-assistant.glass-theme {
   --primary-color: #00d9ff;
   --accent-color: #9d6bff;
   --primary-text-color: #e8f1ff;
-  --secondary-text-color: #93a7c4;
+  --secondary-text-color: #a3b8d6;
   --disabled-text-color: #5a6c8a;
   --card-background-color: rgba(15, 24, 44, 0.55);
   --app-background-color: #070d19;
@@ -111,6 +111,22 @@ home-assistant.glass-theme hui-tile-card ha-tile .tile-badge {
   color: #9d6bff;
 }
 
+/* ============ MEDIA CONTROL (dark anche se unavailable) ============ */
+home-assistant.glass-theme hui-media-control-card ha-card {
+  background: rgba(13, 22, 42, 0.62) !important;
+}
+home-assistant.glass-theme hui-media-control-card .media-card-icon-container {
+  background: rgba(0, 217, 255, 0.14) !important;
+  color: #00d9ff !important;
+}
+home-assistant.glass-theme hui-media-control-card .media-card-title,
+home-assistant.glass-theme hui-media-control-card .media-card-subtitle {
+  color: #e8f1ff !important;
+}
+home-assistant.glass-theme hui-media-control-card .media-button {
+  color: #93a7c4 !important;
+}
+
 /* ============ GAUGE ============ */
 home-assistant.glass-theme hui-gauge-card ha-gauge {
   --gauge-color: #00d9ff;
@@ -141,7 +157,8 @@ home-assistant.glass-theme hui-entities-card ha-icon {
   color: #93a7c4;
 }
 home-assistant.glass-theme hui-entities-card .secondary {
-  color: #7d93b5;
+  color: #8fa8cc;
+  font-size: 13px;
 }
 
 /* ============ SCROLLBAR SUBTLE ============ */
